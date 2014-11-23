@@ -1,0 +1,57 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  </head>
+  <body>
+    <div class="col-md-6">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Formulário</div>
+          <div class="panel-body">
+            <form accept-charset="UTF-8" action="resultado.html" class="simple_form form-horizontal" enctype="multipart/form-data" id="new_user_horizontal" method="post" novalidate="novalidate">
+              <div style="display:none">
+                <input name="utf8" type="hidden" value="&#x2713;" />
+                <input name="authenticity_token" type="hidden" value="NNFO8A7+7i7edjfaLEOrtRmHa2IJQZ+GQwrxa2bRDN4=" />
+              </div>
+  
+
+            <div class="form-group email required user_horizontal_email">
+              <label class="email required col-sm-3 control-label" for="user_horizontal_email">
+                <abbr title="required">*</abbr>
+              Email</label>
+              <div class="col-sm-9">
+                <input class="string email required form-control" id="user_email" name="user_horizontal[email]" placeholder="Email" type="email" />
+              </div>
+            </div>
+
+            <div class="form-group password required user_horizontal_password">
+              <label class="password required col-sm-3 control-label" for="user_horizontal_password">
+                <abbr title="required">*</abbr>
+                Senha</label>
+                <div class="col-sm-9">
+                  <input class="password required form-control" id="user_password" name="user_horizontal[password]" placeholder="Password" type="password" />
+                </div>
+            </div>
+
+            <div class="form-group boolean optional user_horizontal_active">
+              <div class="col-sm-offset-3 col-sm-9">
+                <div class="checkbox">
+                  <input name="user_horizontal[active]" type="hidden" value="0" />
+                  <label class="boolean optional" for="user_horizontal_active">
+                    <input class="boolean optional" id="user_horizontal_active" name="user_horizontal[active]" type="checkbox" value="1" />Salvar login?</label>
+                </div>
+              </div>
+             </div>
+            <input class="btn btn-default" name="login" type="submit" value="Efetuar Login" />
+          </form>
+        </div>
+      </div>
+    <div>
+
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
