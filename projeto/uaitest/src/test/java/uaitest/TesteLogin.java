@@ -27,7 +27,7 @@ public class TesteLogin {
 		/*
 		 * Acessa a página de exemplo. Sempre deve ser colocado o protocolo http://
 		 */
-		driver.get("http://localhost:8888/uaitest/");
+		driver.get("http://eliasnogueira.com/arquivos_blog/uaitest/");
 		
 		/*
 		 * Localiza os elementos pelo seu id e efetua as ações necessários em cada um:
